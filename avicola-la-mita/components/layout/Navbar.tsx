@@ -17,13 +17,13 @@ export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <nav className="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-brand-gold/20">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                     {/* Logo */}
                     <div className="flex-shrink-0">
                         <Link href="/" className="flex items-center gap-2">
-                            <span className="text-xl font-bold tracking-tight text-brand-brown-900">
+                            <span className="text-xl font-bold tracking-tight text-brand-gold">
                                 Avícola La Mita
                             </span>
                         </Link>
@@ -36,7 +36,7 @@ export function Navbar() {
                                 <Link
                                     key={link.href}
                                     href={link.href}
-                                    className="text-sm font-medium text-gray-700 hover:text-brand-green-800 transition-colors"
+                                    className="text-sm font-medium text-brand-gold/80 hover:text-brand-gold transition-colors"
                                 >
                                     {link.label}
                                 </Link>

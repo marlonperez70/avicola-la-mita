@@ -3,14 +3,14 @@ import { Facebook, Instagram, Phone, Mail, MapPin } from "lucide-react";
 
 export function Footer() {
     return (
-        <footer className="bg-brand-brown-900 text-brand-brown-100">
+        <footer className="bg-black text-brand-gold">
             <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
 
                     {/* Brand Info */}
                     <div className="col-span-1 md:col-span-2">
-                        <h3 className="text-xl font-bold text-white mb-4">Avícola La Mita</h3>
-                        <p className="max-w-md text-sm leading-relaxed text-brand-brown-100/80 mb-6">
+                        <h3 className="text-xl font-bold text-brand-gold mb-4">Avícola La Mita</h3>
+                        <p className="max-w-md text-sm leading-relaxed text-brand-gold/80 mb-6">
                             Producimos pollos orgánicos de la más alta calidad en Ecuador.
                             Comprometidos con el bienestar animal y la salud de nuestros clientes.
                         </p>
@@ -26,7 +26,7 @@ export function Footer() {
 
                     {/* Quick Links */}
                     <div>
-                        <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-4">
+                        <h4 className="text-sm font-semibold uppercase tracking-wider text-brand-gold mb-4">
                             Enlaces
                         </h4>
                         <ul className="space-y-3">
@@ -39,10 +39,10 @@ export function Footer() {
 
                     {/* Contact */}
                     <div>
-                        <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-4">
+                        <h4 className="text-sm font-semibold uppercase tracking-wider text-brand-gold mb-4">
                             Contacto
                         </h4>
-                        <ul className="space-y-3 text-sm text-brand-brown-100/80">
+                        <ul className="space-y-3 text-sm text-brand-gold/80">
                             <li className="flex items-center gap-2">
                                 <Phone className="h-4 w-4" />
                                 <span>+593 99 999 9999</span>
@@ -68,7 +68,7 @@ export function Footer() {
                     </div>
                 </div>
 
-                <div className="mt-8 border-t border-brand-brown-800 pt-8 text-center text-xs text-brand-brown-100/50">
+                <div className="mt-8 border-t border-brand-gold/20 pt-8 text-center text-xs text-brand-gold/60">
                     <p>&copy; {new Date().getFullYear()} Avícola La Mita. Todos los derechos reservados.</p>
                 </div>
             </div>

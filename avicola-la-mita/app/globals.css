@@ -10,15 +10,18 @@
   --color-brand-green-600: #1ca553;
   --color-brand-green-800: #166534;
   --color-brand-green-900: #0f4c25;
-  
+
   --color-brand-brown-100: #f5f0e6;
   --color-brand-brown-600: #8c6a2d;
   --color-brand-brown-900: #4a3712;
 
   --color-brand-cream: #fdfbf7;
-  
+  --color-brand-gold: #D4AF37;
+  /* Metallic Gold */
+
   /* Semantic Colors */
-  --background: var(--color-brand-cream);
+  --background: #ffffff;
+  /* Explicitly White as requested */
   --foreground: var(--color-brand-brown-900);
 }
 
