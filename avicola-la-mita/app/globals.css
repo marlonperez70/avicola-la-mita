@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+:root {
+  /* Premium Organic Palette */
+  --color-brand-green-100: #e6f5ea;
+  --color-brand-green-600: #1ca553;
+  --color-brand-green-800: #166534;
+  --color-brand-green-900: #0f4c25;
+  
+  --color-brand-brown-100: #f5f0e6;
+  --color-brand-brown-600: #8c6a2d;
+  --color-brand-brown-900: #4a3712;
+
+  --color-brand-cream: #fdfbf7;
+  
+  /* Semantic Colors */
+  --background: var(--color-brand-cream);
+  --foreground: var(--color-brand-brown-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0f1210;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
