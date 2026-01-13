@@ -45,7 +45,7 @@ export function Footer() {
                         <ul className="space-y-3 text-sm text-brand-gold/80">
                             <li className="flex items-center gap-2">
                                 <Phone className="h-4 w-4" />
-                                <span>+593 99 999 9999</span>
+                                <span>+593 99 561 6428</span>
                             </li>
                             <li className="flex items-center gap-2">
                                 <Mail className="h-4 w-4" />
@@ -58,10 +58,10 @@ export function Footer() {
                         </ul>
 
                         <div className="mt-6 flex gap-4">
-                            <a href="#" className="text-brand-brown-100 hover:text-white">
+                            <a href="https://www.facebook.com/share/16jUpe2FcL/" target="_blank" rel="noopener noreferrer" className="text-brand-gold hover:text-white transition-colors">
                                 <Facebook className="h-5 w-5" />
                             </a>
-                            <a href="#" className="text-brand-brown-100 hover:text-white">
+                            <a href="#" className="text-brand-gold hover:text-white transition-colors">
                                 <Instagram className="h-5 w-5" />
                             </a>
                         </div>
