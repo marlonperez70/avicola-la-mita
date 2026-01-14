@@ -17,13 +17,21 @@ export function Hero() {
 
             <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="max-w-2xl lg:max-w-4xl">
-                    <h1 className="text-4xl font-bold tracking-tight mb-6 text-gold-shine sm:text-6xl">
-                        Sabor Orgánico y Natural <br className="hidden lg:block" />
-                        <span>Directo a tu Mesa</span>
+                    <h1 className="text-4xl font-bold tracking-tight mb-6 text-gold-shine sm:text-6xl font-serif leading-tight">
+                        Carne de Pollo <br className="hidden lg:block" />
+                        <span>Orgánica Certificada</span>
                     </h1>
-                    <p className="mt-6 text-lg leading-8 text-brand-green-100 max-w-xl">
-                        Descubre el verdadero sabor del pollo de campo. Criados libremente, sin antibióticos y con alimentación 100% orgánica.
+                    <p className="mt-6 text-lg leading-8 text-brand-green-100 max-w-xl font-sans">
+                        Criados con amor, procesados con responsabilidad. Descubre el sabor de la verdadera libertad y nutrición.
                     </p>
+                    <div className="mt-8 flex flex-wrap gap-4">
+                        <div className="bg-brand-green-800/80 px-3 py-1 rounded-full text-xs text-white uppercase tracking-wider font-semibold ring-1 ring-white/20">
+                            Agrocalidad Ecuador
+                        </div>
+                        <div className="bg-brand-green-800/80 px-3 py-1 rounded-full text-xs text-white uppercase tracking-wider font-semibold ring-1 ring-white/20">
+                            EU Organic
+                        </div>
+                    </div>
                     <div className="mt-10 flex items-center gap-x-6">
                         <Button size="lg" className="bg-white text-brand-green-900 hover:bg-brand-green-100" asChild>
                             <Link href="#products">

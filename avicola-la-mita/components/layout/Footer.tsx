@@ -31,8 +31,9 @@ export function Footer() {
                         </h4>
                         <ul className="space-y-3">
                             <li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li>
-                            <li><Link href="#products" className="hover:text-white transition-colors">Nuestros Productos</Link></li>
-                            <li><Link href="#about" className="hover:text-white transition-colors">Sobre Nosotros</Link></li>
+                            <li><Link href="/productos" className="hover:text-white transition-colors">Nuestr os Productos</Link></li>
+                            <li><Link href="/certificaciones" className="hover:text-white transition-colors">Certificaciones</Link></li>
+                            <li><Link href="/nosotros" className="hover:text-white transition-colors">Sobre Nosotros</Link></li>
                             <li><Link href="#contact" className="hover:text-white transition-colors">Contacto</Link></li>
                         </ul>
                     </div>
