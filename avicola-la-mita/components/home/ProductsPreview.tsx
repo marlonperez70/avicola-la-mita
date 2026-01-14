@@ -43,7 +43,7 @@ export function ProductsPreview() {
                 <div className="mt-8 grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 xl:gap-x-8">
                     {products.map((product) => (
                         <div key={product.id} className="group relative">
-                            <div className={`relative h-72 w-full overflow-hidden rounded-lg ${product.image ? 'bg-transparent' : product.imageColor} sm:aspect-h-1 sm:aspect-w-1 group-hover:opacity-75 sm:h-64 flex items-center justify-center`}>
+                            <div className="relative h-72 w-full overflow-hidden rounded-lg bg-gray-200 sm:aspect-h-1 sm:aspect-w-1 group-hover:opacity-75 sm:h-64 flex items-center justify-center">
                                 {product.image ? (
                                     <img
                                         src={product.image}
