@@ -17,9 +17,9 @@ export function Hero() {
 
             <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="max-w-2xl lg:max-w-4xl">
-                    <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl mb-6">
+                    <h1 className="text-4xl font-bold tracking-tight mb-6 text-gold-shine sm:text-6xl">
                         Sabor Orgánico y Natural <br className="hidden lg:block" />
-                        <span className="text-brand-green-100">Directo a tu Mesa</span>
+                        <span>Directo a tu Mesa</span>
                     </h1>
                     <p className="mt-6 text-lg leading-8 text-brand-green-100 max-w-xl">
                         Descubre el verdadero sabor del pollo de campo. Criados libremente, sin antibióticos y con alimentación 100% orgánica.

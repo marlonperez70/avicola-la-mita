@@ -14,14 +14,14 @@ const products = [
         name: "Pechuga de Pollo",
         price: "$8.50 / kg",
         description: "Corte magro y versátil. Perfecta para dietas saludables.",
-        imageColor: "bg-red-100",
+        image: "/images/chicken-breast.png",
     },
     {
         id: 3,
         name: "Alitas de Pollo",
         price: "$6.00 / kg",
         description: "Las favoritas para reuniones. Crujientes y jugosas.",
-        imageColor: "bg-yellow-100",
+        image: "/images/chicken-wings.png",
     },
 ];
 

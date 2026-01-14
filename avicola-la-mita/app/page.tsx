@@ -1,12 +1,14 @@
 import { Hero } from "@/components/home/Hero";
 import { Features } from "@/components/home/Features";
 import { ProductsPreview } from "@/components/home/ProductsPreview";
+import { About } from "@/components/home/About";
 
 export default function Home() {
   return (
     <div className="flex flex-col gap-0">
       <Hero />
       <Features />
+      <About />
       <ProductsPreview />
 
       {/* Contact Section Placeholder (Simple CTA) */}

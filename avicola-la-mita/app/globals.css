@@ -39,3 +39,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@layer utilities {
+  .text-gold-shine {
+    background: linear-gradient(to right,
+        #BF953F,
+        #FCF6BA,
+        #B38728,
+        #FBF5B7,
+        #AA771C);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+    /* Extra bold for better visibility of the effect */
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+    /* Shadow to pop against black */
+  }
+}

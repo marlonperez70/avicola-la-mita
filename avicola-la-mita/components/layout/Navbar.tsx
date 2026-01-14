@@ -23,7 +23,7 @@ export function Navbar() {
                     {/* Logo */}
                     <div className="flex-shrink-0">
                         <Link href="/" className="flex items-center gap-2">
-                            <span className="text-xl font-bold tracking-tight text-brand-gold">
+                            <span className="text-2xl font-bold tracking-tight text-gold-shine">
                                 Avícola La Mita
                             </span>
                         </Link>
